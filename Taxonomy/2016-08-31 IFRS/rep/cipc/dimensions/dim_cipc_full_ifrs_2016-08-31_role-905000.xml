@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Companies & Intellectual Property Commission -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.cipc.co.za/taxonomy/role/dimensions/905.000/ContinuingAndDiscontinueOperations" xlink:type="simple" xlink:href="rol_cipc-dim_2016-08-31.xsd#ContinuingAndDiscontinueOperations"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.cipc.co.za/taxonomy/role/dimensions/905.000/ContinuingAndDiscontinueOperations">
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/full_ifrs/full_ifrs-cor_2016-03-31.xsd#ifrs-full_ContinuingAndDiscontinuedOperationsAxis" xlink:label="ContinuingAndDiscontinuedOperationsAxis" xlink:title="ContinuingAndDiscontinuedOperationsAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/full_ifrs/full_ifrs-cor_2016-03-31.xsd#ifrs-full_AggregateContinuingAndDiscontinuedOperationsMember" xlink:label="AggregateContinuingAndDiscontinuedOperationsMember" xlink:title="AggregateContinuingAndDiscontinuedOperationsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ContinuingAndDiscontinuedOperationsAxis" xlink:to="AggregateContinuingAndDiscontinuedOperationsMember" xlink:title="definition: ContinuingAndDiscontinuedOperationsAxis to AggregateContinuingAndDiscontinuedOperationsMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/full_ifrs/full_ifrs-cor_2016-03-31.xsd#ifrs-full_ContinuingOperationsMember" xlink:label="ContinuingOperationsMember" xlink:title="ContinuingOperationsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="AggregateContinuingAndDiscontinuedOperationsMember" xlink:to="ContinuingOperationsMember" xlink:title="definition: AggregateContinuingAndDiscontinuedOperationsMember to ContinuingOperationsMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/full_ifrs/full_ifrs-cor_2016-03-31.xsd#ifrs-full_DiscontinuedOperationsMember" xlink:label="DiscontinuedOperationsMember" xlink:title="DiscontinuedOperationsMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="AggregateContinuingAndDiscontinuedOperationsMember" xlink:to="DiscontinuedOperationsMember" xlink:title="definition: AggregateContinuingAndDiscontinuedOperationsMember to DiscontinuedOperationsMember" order="2.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/full_ifrs/full_ifrs-cor_2016-03-31.xsd#ifrs-full_DisposalGroupsClassifiedAsHeldForSaleMember" xlink:label="DisposalGroupsClassifiedAsHeldForSaleMember" xlink:title="DisposalGroupsClassifiedAsHeldForSaleMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="DiscontinuedOperationsMember" xlink:to="DisposalGroupsClassifiedAsHeldForSaleMember" xlink:title="definition: DiscontinuedOperationsMember to DisposalGroupsClassifiedAsHeldForSaleMember" order="1.0"/>
+  </link:definitionLink>
+</link:linkbase>

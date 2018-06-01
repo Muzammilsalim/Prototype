@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Companies & Intellectual Property Commission -->
+<xsd:schema targetNamespace="http://xbrl.cipc.co.za/taxonomy/role" elementFormDefault="qualified" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:rol_cipc="http://xbrl.cipc.co.za/taxonomy/role" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <xsd:annotation>
+    <xsd:appinfo>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/000.100/AnnualReturn" id="AnnualReturn">
+        <link:definition>[000.100] Annual return</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/000.200/FinacialAccountabilitySupplement" id="FinacialAccountabilitySupplement">
+        <link:definition>[000.200] Financial accountability supplement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/000.300/AnnualStatisticalInformation" id="AnnualStatisticalInformation">
+        <link:definition>[000.300] Annual statistical information (primary co-operatives only)</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/100.000/GeneralInformationAboutFinancialStatements" id="GeneralInformationAboutFinancialStatements">
+        <link:definition>[100.000] General information about financial statements</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/210.000/StatementOfFinancialPositionCurentNoncurrent" id="StatementOfFinancialPositionCurentNoncurrent">
+        <link:definition>[210.000] Statement of financial position, current/non-current</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/220.000/StatementOfFinancialPositionOrderOfLiquidity" id="StatementOfFinancialPositionOrderOfLiquidity">
+        <link:definition>[220.000] Statement of financial position, order of liquidity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/310.000/StatementOfComprehensiveIncomeProfitOrLossByFunctionOfExpense" id="StatementOfComprehensiveIncomeProfitOrLossByFunctionOfExpense">
+        <link:definition>[310.000] Statement of comprehensive income, profit or loss, by function of expense</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/320.000/StatementOfComprehensiveIncomeProfitOrLossByNatureOfExpense" id="StatementOfComprehensiveIncomeProfitOrLossByNatureOfExpense">
+        <link:definition>[320.000] Statement of comprehensive income, profit or loss, by nature of expense</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/410.000/StatementOfComprehensiveIncomeOCIComponentsPresentedNetOfTax" id="StatementOfComprehensiveIncomeOCIComponentsPresentedNetOfTax">
+        <link:definition>[410.000] Statement of comprehensive income, OCI components presented net of tax</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/420.000/StatementOfComprehensiveIncomeOCIComponentsPresentedBeforeTax" id="StatementOfComprehensiveIncomeOCIComponentsPresentedBeforeTax">
+        <link:definition>[420.000] Statement of comprehensive income, OCI components presented before tax</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/510.000/StatementOfCashFlowsDirectMethod" id="StatementOfCashFlowsDirectMethod">
+        <link:definition>[510.000] Statement of cash flows, direct method</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/520.000/StatementOfCashFlowsIndirectMethod" id="StatementOfCashFlowsIndirectMethod">
+        <link:definition>[520.000] Statement of cash flows, indirect method</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/610.000/StatementOfChangesInEquity" id="StatementOfChangesInEquity">
+        <link:definition>[610.000] Statement of changes in equity</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/650.000/StatementOfIncomeAndRetainedEarningsAdditionalDisclosures" id="StatementOfIncomeAndRetainedEarningsAdditionalDisclosures">
+        <link:definition>[650.000] Statement of income and retained earnings, additional disclosures</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/700.000/StatementOfChangesInNetAssetsAvailableForBenefits" id="StatementOfChangesInNetAssetsAvailableForBenefits">
+        <link:definition>[700.000] Statement of changes in net assets available for benefits</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.100/SubclassificationsOfAssetsLiabilitiesAndEquities" id="SubclassificationsOfAssetsLiabilitiesAndEquities">
+        <link:definition>[800.100] Subclassifications of assets, liabilities and equities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.100a/SubclassificationsOfAssetsLiabilitiesAndEquitiesA" id="SubclassificationsOfAssetsLiabilitiesAndEquitiesA">
+        <link:definition>[800.100a] Subclassifications of assets, liabilities and equities</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.200/AnalysisOfIncomeAndExpense" id="AnalysisOfIncomeAndExpense">
+        <link:definition>[800.200] Analysis of income and expense</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.300/ListOfNotes" id="ListOfNotes">
+        <link:definition>[800.300] List of notes</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>	  
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.400/ListOfAccountingPolicies" id="ListOfAccountingPolicies">
+        <link:definition>[800.400] List of accounting policies</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>	  
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.500/DirectorsReport" id="DirectorsReport">
+        <link:definition>[800.500] Disclosures - Directors' report</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.600/DirectorsResponsibilityStatement" id="DirectorsResponsibilityStatement">
+        <link:definition>[800.600] Disclosures - Directors' responsibility statement</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.700/CompanySecretarysStatement" id="CompanySecretarysStatement">
+        <link:definition>[800.700] Disclosures - Company secretary's statement </link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.810/AuditorsReport" id="AuditorsReport">
+        <link:definition>[800.810] Disclosures - Auditor's report</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.820/IndependentReviewersReport" id="IndependentReviewersReport">
+        <link:definition>[800.820] Disclosures - Independent reviewer's report</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/800.900/DirectorsFunctionsAndRemuneration" id="DirectorsFunctionsAndRemuneration">
+        <link:definition>[800.900] Disclosures - Directors' functions and remuneration</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+      <link:roleType roleURI="http://xbrl.cipc.co.za/taxonomy/role/801.000/CorporateGovernance" id="CorporateGovernance">
+        <link:definition>[801.000] Disclosures - Corporate governance</link:definition>
+        <link:usedOn>link:presentationLink</link:usedOn>
+        <link:usedOn>link:definitionLink</link:usedOn>
+        <link:usedOn>link:calculationLink</link:usedOn>
+      </link:roleType>
+    </xsd:appinfo>
+  </xsd:annotation>
+</xsd:schema>

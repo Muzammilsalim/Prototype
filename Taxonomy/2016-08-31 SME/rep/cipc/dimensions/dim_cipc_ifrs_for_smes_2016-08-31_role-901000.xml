@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Companies & Intellectual Property Commission -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <link:roleRef roleURI="http://xbrl.cipc.co.za/taxonomy/role/dimensions/901.000/ConsolidatedAndSeparateFinancialStatements" xlink:type="simple" xlink:href="rol_cipc-dim_2016-08-31.xsd#ConsolidatedAndSeparateFinancialStatements"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#dimension-domain"/>
+  <link:arcroleRef arcroleURI="http://xbrl.org/int/dim/arcrole/domain-member" xlink:type="simple" xlink:href="http://www.xbrl.org/2005/xbrldt-2005.xsd#domain-member"/>
+  <link:definitionLink xlink:type="extended" xlink:role="http://xbrl.cipc.co.za/taxonomy/role/dimensions/901.000/ConsolidatedAndSeparateFinancialStatements">
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/ifrs_for_smes/ifrs_for_smes-cor_2016-03-31.xsd#ifrs-smes_ConsolidatedAndSeparateFinancialStatementsAxis" xlink:label="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:title="ConsolidatedAndSeparateFinancialStatementsAxis"/>
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/ifrs_for_smes/ifrs_for_smes-cor_2016-03-31.xsd#ifrs-smes_ConsolidatedMember" xlink:label="ConsolidatedMember" xlink:title="ConsolidatedMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/dimension-domain" xlink:from="ConsolidatedAndSeparateFinancialStatementsAxis" xlink:to="ConsolidatedMember" xlink:title="definition: ConsolidatedAndSeparateFinancialStatementsAxis to ConsolidatedMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/ifrs_for_smes/ifrs_for_smes-cor_2016-03-31.xsd#ifrs-smes_CombinedMember" xlink:label="CombinedMember" xlink:title="CombinedMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ConsolidatedMember" xlink:to="CombinedMember" xlink:title="definition: ConsolidatedMember to CombinedMember" order="1.0"/>
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/ifrs_for_smes/ifrs_for_smes-cor_2016-03-31.xsd#ifrs-smes_SeparateMember" xlink:label="SeparateMember" xlink:title="SeparateMember"/>
+    <link:definitionArc xlink:type="arc" xlink:arcrole="http://xbrl.org/int/dim/arcrole/domain-member" xlink:from="ConsolidatedMember" xlink:to="SeparateMember" xlink:title="definition: ConsolidatedMember to SeparateMember" order="2.0"/>
+  </link:definitionLink>
+</link:linkbase>

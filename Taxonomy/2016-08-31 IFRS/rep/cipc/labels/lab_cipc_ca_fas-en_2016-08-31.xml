@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Companies & Intellectual Property Commission -->
+<link:linkbase xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.xbrl.org/2003/linkbase http://www.xbrl.org/2003/xbrl-linkbase-2003-12-31.xsd" xmlns:link="http://www.xbrl.org/2003/linkbase" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xbrli="http://www.xbrl.org/2003/instance">
+  <link:labelLink xlink:type="extended" xlink:role="http://www.xbrl.org/2003/role/link">
+    <link:loc xlink:type="locator" xlink:href="../../../def/ifrs/full_ifrs/full_ifrs-cor_2016-03-31.xsd#ifrs-full_DateOfEndOfReportingPeriod2013" xlink:label="DateOfEndOfReportingPeriod2013" xlink:title="DateOfEndOfReportingPeriod2013"/>
+    <link:label xlink:type="resource" xlink:label="label_DateOfEndOfReportingPeriod2013" xlink:role="http://www.xbrl.org/2003/role/label" xlink:title="label_DateOfEndOfReportingPeriod2013" xml:lang="en" id="label_DateOfEndOfReportingPeriod2013">Date of end of reporting period</link:label>
+    <link:labelArc xlink:type="arc" xlink:arcrole="http://www.xbrl.org/2003/arcrole/concept-label" xlink:from="DateOfEndOfReportingPeriod2013" xlink:to="label_DateOfEndOfReportingPeriod2013" xlink:title="label: DateOfEndOfReportingPeriod2013 to label_DateOfEndOfReportingPeriod2013"/>
+  </link:labelLink>
+</link:linkbase>
